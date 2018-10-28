@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://www.calm.com"
   s.license      = "MIT"
   s.author       = { "Calm" => "tyler@calm.com" }
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/calmcom/SexyTooltip.git", :tag => s.version.to_s }
   s.source_files = "SexyTooltip/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
